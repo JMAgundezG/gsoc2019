@@ -1,0 +1,11 @@
+import "DifferentialRobot.idsl";
+
+Component EV3_VREP
+{
+	Communications
+	{
+		implements DifferentialRobot;
+	};
+	language python;
+};
+

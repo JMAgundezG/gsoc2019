@@ -1,0 +1,8 @@
+This library provides an ePuck.py compatible interface to the V-REP
+(http://www.v-rep.eu/) simulator. Thus, programs can run via bluetooth, on the
+Overo extension or the V-REP simulator without much change.
+
+This libray is written in Python 2.7 and needs the remoteApi.[so|dll|dylib] from
+the V-REP simulator to run.
+
+Currently motors, leds, ground- and proximity sensors should work.

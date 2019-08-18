@@ -1,0 +1,4 @@
+V-REP/*
+./swarm_controller/nikolai.py
+*/__pycache__/
+*.ipynb
