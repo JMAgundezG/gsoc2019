@@ -1,0 +1,16 @@
+import "DifferentialRobot.idsl";
+import "Laser.idsl";
+import "Camera.idsl";
+
+Component ePuck
+{
+	Communications
+	{
+		implements DifferentialRobot, Camera, Laser;
+		};
+	language python;
+
+
+
+};
+
